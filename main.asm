@@ -135,7 +135,7 @@ SetupVideo:
     sta $2105      ; Set Video mode 1
 
     lda #$40      
-    sta $2107	   ; Set BG1's Tile Map offset to $1C00 (Word address)
+    sta $2107	   ; Set BG1's Tile Map offset to $4000 (Word address)
 
     lda #$01       ; Enable BG1
     sta $212C
